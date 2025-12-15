@@ -1,0 +1,15 @@
+input[type="button"]
+{
+    height:40px;
+    width:120px;
+    border-radius:5px;
+    border:2px solid rgb(224, 64, 224);
+    color:rgb(224, 64, 224);
+    background-color: white;
+}
+input[type="button"]:hover
+{
+    background-color: rgb(224, 64, 224);
+    color: white;
+    font-size:18px;
+}
