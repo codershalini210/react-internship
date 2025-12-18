@@ -11,7 +11,7 @@ input[type="button"]:hover
 {
     background-color: rgb(224, 64, 224);
     color: white;
-    font-size:18px;
+    /* font-size:18px; */
 }
 .formcontrol{
     width:50%;
@@ -32,4 +32,15 @@ input[type="text"]
 .btngroup
 {
     flex-direction: row;
+}
+.eg
+{
+    width:45%;
+    border:2px dashed red;
+}
+#box
+{
+    height:100px;
+    width: 100px;
+    background-color: orange;
 }

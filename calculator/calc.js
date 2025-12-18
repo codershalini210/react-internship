@@ -1,5 +1,5 @@
-const txta = document.getElementById("txta")
-const txtb = document.getElementById("txtb")
+const txta   = document.getElementById("txta")
+const txtb   = document.getElementById("txtb")
 const btnadd = document.getElementById("btnadd")
 const btnsub = document.getElementById("btnsub")
 const btnmulti = document.getElementById("btnmulti")
