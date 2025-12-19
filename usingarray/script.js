@@ -12,11 +12,14 @@ btnadd.addEventListener("click",()=>
     let cityname = txtcity.value
     cities.push(cityname);
     dcities.innerHTML = ""
+    // let d = ""
     for(let i =0; i<cities.length;i++)
     {
         // dcities.innerHTML = dcities.innerHTML +cities[i] +"<br>"       
         dcities.innerHTML += cities[i]+ "<br>"        
+        // d+ = "<tr><td>"+fshjf+"</td><td>"+skf+
     }    
+    // tbdy.innerHTML = d 
     txtcity.value = ""
     txtcity.focus()
 })
