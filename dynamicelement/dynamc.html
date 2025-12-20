@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <style>
+        .listitem
+        {
+            color:purple;
+        }
+        .displaynone
+        {
+            display: none;
+
+        }
+        .displayblock
+        {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="formcontrol">
+        <label for="">Source</label>
+        <input type="text" id="txtsource">
+
+    </div>
+    <div class="formcontrol">
+        <label for="">Destination</label>
+        <input type="text" id="txtdesti">
+    </div>
+    <div class="formcontrol btngroup">
+    <input type="button" value="add" id="btnadd">
+    </div>
+    <div class="formcontrol">
+        <label for="">search</label>
+        <input type="text" id="txtsearch">
+    </div>
+    <ul id="listtrains" class="formcontrol">
+
+    </ul>
+    
+    <script src="script.js"></script>
+</body>
+</html>
