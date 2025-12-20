@@ -44,3 +44,16 @@ input[type="text"],input[type="email"]
     width: 100px;
     background-color: orange;
 }
+table
+{
+    border:1px solid brown;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td,th
+{
+    border:1px solid gray;
+    width: 25%;
+    
+}
