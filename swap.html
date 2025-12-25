@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>
+        src: <input type="text" id="txtsource"> <input type="button" value="swap" id="btnswap">
+        <input type="text" id="txtdestination">
+    </p>
+    <script>
+    let txtsource = document.getElementById("txtsource")
+    let txtdestination = document.getElementById("txtdestination")
+    let btnswap = document.getElementById("btnswap")
+    btnswap.addEventListener("click",()=>
+    {
+        if(txtdestination.value!=""&& txtsource.value!="" && txtdestination.value!= txtsource.value)
+    {
+        let d = txtdestination.value 
+        txtdestination.value = txtsource.value
+        txtsource.value=d
+     
+    }
+    else
+    {
+        if(txtdestination.value ==""|| txtsource.value=="" )
+    {
+        alert("please fill all the fields")
+    }
+    else{
+        alert("source and destination can't be same ")
+    }
+    } 
+       })
+    </script>
+</body>
+</html>
